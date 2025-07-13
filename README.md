@@ -55,7 +55,12 @@ This repository attempts to extract semantic information / features from GIS ima
 ### The way ahead
 * To Identify more features we need to put in effort in data collection, by  searching for more existing datasets and adapting them  to our problem , or by manual labelling. 
 
-* To classify
+* We could use the pseudo label from these to extend our datasets.
+
+* To classify terrains:
+    * We could set heuristics like percentage of builing and roads cover to identify urban and sub urban space. Or percentage of forest cover to idenfy jungles. 
+
+    * Finetune explicit U-net models for this purpose. 
 
 ## Repository structure
 
@@ -78,4 +83,4 @@ The respository contains the following:
 
 
 **Results**
-* results.ipynb - 
+* results.ipynb - We load the trained model and use them to extract segmentation maps for buildings and roads. we process the images in small pieces and use them to produce an overlay on the entire image.
