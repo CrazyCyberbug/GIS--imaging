@@ -46,9 +46,9 @@ This repository attempts to extract semantic information / features from GIS ima
 
 * The road model is able to identify thar roads as the massachussets data shows, and identifies the roads only  that are gray in appearance and misses the muddy ones.
 
-* We can trick the model into identifying the muddy 
+* We can trick the model into identifying the muddy roads by twaeking image attributes like contrast and saturation.
 
-* 
+* The building  model is able to identify though the segments are not very accurate.However it is able to distintly tell apart buildings from other features like trees and and roads.
 
 * We finally present an overlay in the results notebook
 
