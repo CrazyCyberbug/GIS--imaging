@@ -62,25 +62,4 @@ This repository attempts to extract semantic information / features from GIS ima
 
     * Finetune explicit U-net models for this purpose. 
 
-## Repository structure
 
-The respository contains the following:
-
-**Directories**
-
-* **Models** - Model checkpoint of the trained segmentation models.
-
-
-* **Data** - TIFF files provided with the assessment
-
-
-**Training scripts**
-* EDA.ipynb - 
-* *U_Net_Massachusetts_road_Segmentation.ipynb* - Road segmentation training script
-
-
-* *U_Net_Massachusetts_Building_Segmentation.ipynb* - Building segmentation training script
-
-
-**Results**
-* results.ipynb - We load the trained model and use them to extract segmentation maps for buildings and roads. we process the images in small pieces and use them to produce an overlay on the entire image.
