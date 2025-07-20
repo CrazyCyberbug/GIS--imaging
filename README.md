@@ -63,3 +63,6 @@ This repository attempts to extract semantic information / features from GIS ima
     * Finetune explicit U-net models for this purpose. 
 
 
+
+our custom labelled  data : <a href = "https://drive.google.com/file/d/1DiDv4tRYnqry6PV8WxAS_LfkbPX7woyD/view?usp=drive_link"> link</a>
+
